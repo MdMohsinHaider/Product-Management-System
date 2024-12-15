@@ -79,7 +79,7 @@ public class AdminService {
             // Retrieve admin details from the service
             Admin admin = getAdminByIdService(adminId);
 
-            // Handle case where no admin is found
+            // Handle a case where no admin is found
             if (admin == null) {
                 System.out.println("Admin not found.");
                 return false;
